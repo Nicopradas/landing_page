@@ -1,12 +1,41 @@
+
+body {
+    margin: 0;
+}
+/*COMMON SECTION CSS*/
+.header,
+.contentHeader {
+    font-family: 'Roboto';
+    background-color: #1F2937;
+    color: white;
+}
+/*FIRST SECTION CSS*/
+.links a{
+    text-decoration: none;
+    color: #c6c7ca;
+    font-size: 18px;
+}
+.links{
+    display: flex;
+    gap: 25px;
+}
+
 .header{
     display: flex;
     justify-content: space-around;
-    gap: 250px;
-    font-family: "Roboto";
+    gap: 20px;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 90px;
 }
+/*SECOND SECTION CSS*/
+
 .contentHeader{
     display: flex;
     justify-content: center;
-    gap:70px;
-    margin-top: 70px;
+    gap:230px;
 }
+.contentHeader .left{
+    width: 500px;
+}
+
