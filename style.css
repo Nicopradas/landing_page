@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    gap: 250px;
+    font-family: "Roboto";
+}
+.contentHeader{
+    display: flex;
+    justify-content: center;
+    gap:70px;
+    margin-top: 70px;
+}
