@@ -1,11 +1,11 @@
 
 body {
     margin: 0;
+    font-family: 'Roboto';
 }
 /*COMMON SECTION CSS*/
 .header,
 .contentHeader {
-    font-family: 'Roboto';
     background-color: #1F2937;
     color: white;
 }
@@ -26,7 +26,7 @@ body {
     gap: 20px;
     font-size: 24px;
     padding-top: 20px;
-    padding-bottom: 130px;
+    padding-bottom: 140px;
 }
 /*SECOND SECTION CSS*/
 
@@ -41,7 +41,7 @@ body {
     gap:50px; 
     font-size: 18px;  
     color:#c6c7ca;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 .contentHeader .left{
     width: 460px;
@@ -53,7 +53,6 @@ body {
     font-size: 18px;
     color: white;
     background-color: #3882F6;
-    font-family: 'Roboto';
     border-width: 0;
 }
 .img{
@@ -67,7 +66,6 @@ body {
 .infoheader{
     display: flex;
     justify-content: center;
-    font-family: 'Roboto';
     font-size: 36px;
     font-weight: 900;
     margin-top: 60px;
@@ -92,11 +90,33 @@ body {
     height: 170px;
 }
 .subtext{
-    font-family:'Roboto';
     margin-top: 10px;
     font-size: 18px;
     color:#747474;
     text-align: center;
 
 }
-
+/*FOURTH SECTION CSS*/
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    font-size: 36px;
+}
+.sentence{
+    font-style: italic;
+    font-weight: 300;
+}
+.author {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 700;
+}
+.quoteContainer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(228,231,235);
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
