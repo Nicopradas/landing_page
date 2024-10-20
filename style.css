@@ -120,3 +120,39 @@ body {
     padding-top: 110px;
     padding-bottom: 110px;
 }
+/*FIFTH SECTION CSS*/
+.callToAction{
+    display: flex;
+    justify-content: center;
+}
+.color{
+    display: flex;
+    background-color: rgb(59,129,246);
+    align-items: center;
+    gap: 170px;
+    padding: 50px 140px;
+    border-radius: 8px; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+.callToAction .color .left{
+    font-size: 18px;
+    color: rgb(210, 210, 210);
+        
+}
+.callToAction .color .left #call{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+.button2{
+    margin-top: 10px;
+    padding: 8px 33px 8px 33px;
+    border-radius: 7px;
+    font-size: 18px;
+    color: white;
+    background-color: #3882F6;
+    border: solid white;
+    border-width: 2px;
+}
