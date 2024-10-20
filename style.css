@@ -63,3 +63,40 @@ body {
     align-items: center;
     width: 520px;
 }
+/*THIRD SECTION CSS*/
+.infoheader{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    margin-bottom: 100px;
+}
+.square{
+    border: solid #3882F6;
+    border-radius: 20px; 
+    border-width: 4px;
+    height: 170px;
+}
+.subtext{
+    font-family:'Roboto';
+    margin-top: 10px;
+    font-size: 18px;
+    color:#747474;
+    text-align: center;
+
+}
+
