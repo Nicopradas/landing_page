@@ -5,7 +5,8 @@ body {
 }
 /*COMMON SECTION CSS*/
 .header,
-.contentHeader {
+.contentHeader,
+.footerStyle {
     background-color: #1F2937;
     color: white;
 }
@@ -155,4 +156,20 @@ body {
     background-color: #3882F6;
     border: solid white;
     border-width: 2px;
+}
+/*LAST SECTION*/
+.footerStyle{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    font-size: 18px;
+    color: rgb(210, 210, 210);
+}
+/*TO ATTACH THE FOOTER TO THE BOTTOM:*/
+.content{
+    display:flex;
+    flex-direction: column;
+}
+.footer{
+    justify-content: flex-end;
 }
